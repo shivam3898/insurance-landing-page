@@ -1,0 +1,48 @@
+    body {
+        font-family: 'Karla', sans-serif;
+        overflow-x: hidden;
+    }
+    
+    h1 {
+        font-family: 'DM Serif Display', serif;
+    }
+    
+    .main-heading {
+        color: white !important;
+    }
+    
+    .btn {
+        border: 2px solid;
+        border-radius: 0;
+    }
+    
+    .main-container {
+        background-color: hsl(256, 26%, 20%);
+        max-height: 30rem;
+    }
+    
+    .main-container h1 {
+        color: white
+    }
+    
+    p {
+        color: hsl(233, 8%, 62%);
+    }
+    
+    .small-container-main {
+        padding: 0;
+    }
+    
+    @media only screen and (min-width: 768px) {
+        .main-container h1 {
+            font-size: 4rem;
+        }
+        .main-top {
+            padding: 8rem 0 8rem 8rem;
+        }
+        .big-main-img {
+            margin-top: 3rem;
+            width: 70%;
+            margin-left: 4rem;
+        }
+    }
